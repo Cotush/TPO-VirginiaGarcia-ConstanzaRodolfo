@@ -2,3 +2,56 @@
     margin: 0px;
     padding: 0px;
 }
+
+main{
+    border: 5px violet solid;
+    margin: 15px;
+}
+
+header{
+    background-color: rgb(226, 191, 144);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position:sticky;
+    top: 0;
+}
+
+.logo{
+    border: 5px rgb(135, 135, 251) solid;
+    margin: 15px;
+}
+
+.logo img{
+    width: 20%;
+}
+
+.nav{
+    border: 5px greenyellow solid;
+    margin: 15px;
+}
+
+.nav-indice{
+    list-style: none;
+}
+
+.nav-indice li{
+    display: inline-block;
+    padding: 5px 20px;
+ }
+ 
+ .nav-indice li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section{
+    border: 5px rgb(151, 1, 151) solid;
+    margin: 15px
+}
+
+footer{
+    background-color: grey;
+}
