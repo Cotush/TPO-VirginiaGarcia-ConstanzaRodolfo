@@ -78,13 +78,16 @@ section{
 
 .asignaturas{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    flex-shrink: 2;
     justify-content: space-between;
 }
 
 .asignaturas > div{
     width: 50%;
     justify-content: center;
+    min-width: 400px;
 }
 
 .secundaria{
