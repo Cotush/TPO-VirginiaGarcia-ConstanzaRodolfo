@@ -4,12 +4,12 @@
 }
 
 main{
-    border: 5px violet solid;
-    margin: 15px;
+    /*border: 5px violet solid;
+    margin: 15px;*/
 }
 
 header{
-    background-color: rgb(226, 191, 144);
+    background-color: rgb(86, 93, 71);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,9 +19,11 @@ header{
 }
 
 .logo{
-    border: 5px rgb(135, 135, 251) solid;
-    margin: 1px;
+    /*border: 5px rgb(135, 135, 251) solid;
+    margin: 1px;*/
+    margin: 0px 0px 0px 20px;
     width: 10%;
+    
 }
 
 .logo img{
@@ -29,8 +31,8 @@ header{
 }
 
 .nav{
-    border: 5px greenyellow solid;
-    margin: 15px;
+    /*border: 5px greenyellow solid;
+    margin: 15px;*/
 }
 
 .nav-indice{
@@ -58,11 +60,18 @@ header{
 
 
 section{
-    border: 5px rgb(151, 1, 151) solid;
-    margin: 15px
+    /*border: 5px rgb(151, 1, 151) solid;
+    margin: 15px*/
+}
+
+.inicio{
+    background-image: url(../imagenes/Person-studying-at-desk.png);
+    background-size: cover; 
+    height: 60vw;
 }
 
 .profes{
+    margin: 50px 0px 50px 0px;
     width: 95vw;
     height: 40vw;
     display: grid;
@@ -73,10 +82,16 @@ section{
 }
 
 .profes > div{
-    background-color: brown;
+    background-color: rgba(241, 206, 145, 0.205);
+    border-radius: 20px;
+    margin: 10px;
 }
 
 .asignaturas{
+    margin-left: 4vw;
+    width: 90vw;
+    background-color: rgba(234, 172, 157, 0.356);
+    border-radius: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -96,7 +111,14 @@ section{
     grid-template-rows: repeat(7,100px);
 }
 
+.item{
+    align-self: center;
+    justify-self: center;
+}
+
 .item1{
+    align-self: center;
+    justify-self: center;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -108,6 +130,8 @@ section{
 }
 
 .item2{
+    align-self: center;
+    justify-self: center;
     grid-column-start: 1;
     grid-column-end: 3;
 }
