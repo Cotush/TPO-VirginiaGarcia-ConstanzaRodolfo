@@ -3,10 +3,10 @@
     padding: 0px;
 }
 
-main{
-    /*border: 5px violet solid;
-    margin: 15px;*/
-}
+/* main{
+    border: 5px violet solid;
+    margin: 15px;
+} */
 
 header{
     background-color: rgb(86, 93, 71);
@@ -22,7 +22,7 @@ header{
     /*border: 5px rgb(135, 135, 251) solid;
     margin: 1px;*/
     margin: 0px 0px 0px 20px;
-    width: 10%;
+    width: 8%;
     
 }
 
@@ -30,10 +30,10 @@ header{
     width: 100%;
 }
 
-.nav{
-    /*border: 5px greenyellow solid;
-    margin: 15px;*/
-}
+/* .nav{
+    border: 5px greenyellow solid;
+    margin: 15px;
+} */
 
 .nav-indice{
     list-style: none;
@@ -59,10 +59,10 @@ header{
 }
 
 
-section{
-    /*border: 5px rgb(151, 1, 151) solid;
-    margin: 15px*/
-}
+/* section{
+    border: 5px rgb(151, 1, 151) solid;
+    margin: 15px
+} */
 
 .inicio{
     background-image: url(../imagenes/Person-studying-at-desk.png);
@@ -112,8 +112,17 @@ section{
 }
 
 .item{
+    text-align: center;
     align-self: center;
     justify-self: center;
+}
+
+.item > i{
+    margin: 15px;
+} 
+
+.fa-3x {
+    color: rgb(113, 111, 129) !important;
 }
 
 .item1{
