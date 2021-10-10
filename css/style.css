@@ -3,26 +3,23 @@
     padding: 0px;
 }
 
-/* main{
-    border: 5px violet solid;
-    margin: 15px;
-} */
+/* HEADER */
 
 header{
-    background-color: rgb(86, 93, 71);
+    background-color: white /*rgb(86, 93, 71); */;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*padding: 20px 60px;*/
     position:sticky;
     top: 0;
+    border-bottom: 0.5px rgba(0, 0, 0, 0.157) solid;
 }
 
 .logo{
     /*border: 5px rgb(135, 135, 251) solid;
     margin: 1px;*/
     margin: 0px 0px 0px 20px;
-    width: 8%;
+    width: 6%;
     
 }
 
@@ -30,12 +27,8 @@ header{
     width: 100%;
 }
 
-/* .nav{
-    border: 5px greenyellow solid;
-    margin: 15px;
-} */
-
 .nav-indice{
+    margin-right: 75px;
     list-style: none;
 }
 
@@ -51,24 +44,19 @@ header{
 }
 
 .indice{
-    background-color: rgb(128, 128, 128);
+    background-color: rgba(128, 128, 128, 0.342);
     color: white;
     text-decoration: none;
-    /* border-radius: 5px; */
-    margin:0px 20px 0px 0px;
+    border-radius: 5px;
+    margin-right: 40px;
 }
 
-.indice:hover
-{
-        -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
+.indice:hover{
+    transform: scale(1.2);
 }
 
-/* section{
-    border: 5px rgb(151, 1, 151) solid;
-    margin: 15px
-} */
+
+/* INDEX */
 
 .inicio{
     background-image: url(../imagenes/Person-studying-at-desk.png);
@@ -76,21 +64,19 @@ header{
     height: 60vw;
 }
 
-.profes{
-    margin: 50px 0px 50px 0px;
-    width: 95vw;
-    height: 40vw;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 2fr 2fr;
-    justify-content: space-evenly;
-    align-content: center;
+.nosotros{
+    height: 700px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
-.profes > div{
-    background-color: rgba(241, 206, 145, 0.205);
-    border-radius: 20px;
-    margin: 10px;
+.nosotros > h1{
+    margin-top: 300px;
+    font-weight: 100px;
+    font-size: xx-large;
 }
 
 .asignaturas{
@@ -118,6 +104,8 @@ header{
 }
 
 .item{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     align-self: center;
     justify-self: center;
@@ -132,6 +120,8 @@ header{
 }
 
 .item1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     align-self: center;
     justify-self: center;
     grid-column-start: 1;
@@ -145,12 +135,39 @@ header{
 }
 
 .item2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     align-self: center;
     justify-self: center;
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
+
+/* PROFESORES */
+
+.profes{
+    margin: 50px 0px 50px 0px;
+    width: 95vw;
+    height: 40vw;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 2fr 2fr;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.profes > div{
+    background-color: rgba(241, 206, 145, 0.205);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+/* CONTACTO */
+
+
 footer{
     background-color: grey;
 }
+
