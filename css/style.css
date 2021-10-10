@@ -51,13 +51,19 @@ header{
 }
 
 .indice{
-    background-color: gray;
+    background-color: rgb(128, 128, 128);
     color: white;
     text-decoration: none;
-    padding: 5px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    margin:0px 20px 0px 0px;
 }
 
+.indice:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
 
 /* section{
     border: 5px rgb(151, 1, 151) solid;
