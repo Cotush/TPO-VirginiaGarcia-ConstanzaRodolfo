@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+.body_contacto, .body_profesores{
+  background-color: rgba(236, 232, 214, 0.212);
+}
+
 /* HEADER */
 
 header{
@@ -18,7 +22,6 @@ header{
 .logo{
     margin: 5px 0px 0px 20px;
     width: 10%;
-    
 }
 
 .logo img{
@@ -55,7 +58,6 @@ header{
 
 
 /* INDEX */
-
 .inicio{
     background-image: url(../imagenes/inicio.png);
     background-size: cover; 
@@ -148,10 +150,32 @@ header{
   font-style: italic;
 }
 
+.nosotros > p{
+  padding-top: 2vw;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5vw;
+}
+
+.nosotros > p > a{
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.nosotros > p >a:hover{
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.nosotros > p > a:visited{
+  color: black;
+}
+
 .asignaturas{
     padding-bottom: 4vw; 
     padding-top: 1.5vw;
     margin-left: 4vw;
+    margin-bottom: 150px;
     width: 90vw;
     background-color: rgba(241, 201, 191, 0.363);
     border-radius: 20px;
@@ -160,7 +184,6 @@ header{
     flex-wrap: wrap;
     flex-shrink: 2;
     justify-content: space-between;
-    margin-bottom: 150px;
 }
 
 .asignaturas > div{
@@ -249,9 +272,16 @@ header{
 
 
 /* CONTACTO */
+.contacto{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vw;
+  background-color: rgba(236, 232, 214, 0.596);
+  border-radius: 25px;
+}
 
 .contacto > h1{
-  margin-top: 5vw !important;
+  padding-top: 4vw !important;
   font-family: 'Josefin Sans', sans-serif !important;
   font-family: 'Raleway', sans-serif !important;
   font-size: 4vw;
@@ -265,9 +295,47 @@ header{
 }
 
 .formulario_contacto{
-  padding: 0vw 30vw 4vw 30vw !important;
+  padding: 0vw 15vw 4vw 15vw !important;
   font-family: 'Josefin Sans', sans-serif !important;
   font-family: 'Raleway', sans-serif !important;
+}
+
+.ubicacion{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 7vw;
+  margin-bottom: 150px;
+  background-color: rgba(236, 232, 214, 0.596);
+  border-radius: 25px;
+}
+
+.ubicacion > div{
+  padding: 0vw 2vw 2vw 2vw;
+}
+
+.ubicacion > h1{
+  padding-top: 4vw !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 4vw;
+  font-weight: 200px !important;
+}
+
+.ubicacion > p{
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 1.5vw;
+}
+
+.div-direccion{
+  align-self: center;
+  justify-self: center;
+}
+
+#direccion{
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 1vw;
 }
 
 footer{
