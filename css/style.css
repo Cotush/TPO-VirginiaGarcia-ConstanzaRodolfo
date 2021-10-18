@@ -55,7 +55,6 @@ header{
     transform: scale(1.1);
 }
 
-
 /* INDEX */
 .inicio{
     background-image: url(../imagenes/inicio.png);
@@ -209,6 +208,7 @@ header{
     text-align: center;
     align-self: center;
     justify-self: center;
+    font-weight: 600;
 }
 
 .item > a >i{
@@ -244,7 +244,7 @@ header{
 }
 
 .item2{
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
     align-self: center;
@@ -274,21 +274,23 @@ header{
 
 .nav_profes{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(189, 189, 189);
   margin: 1vw 5vw;
   padding: 1vw 2vw;
   border-radius: 20px;
-  list-style: none
+  list-style: none;
 }
 
-.item_nav_profes li{
+.item_nav_profes{
+  display: inherit;
   text-decoration: none;
 }
 
 .item_nav_profes a{
-  padding: 10px;
+  padding: 5px;
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
   color: black;
