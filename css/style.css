@@ -30,11 +30,6 @@ header{
 .nav-indice{
     list-style: none;
 }
-
-.nav-indice li{
-    display: inline-block;
-    padding: 5px 20px;
- }
  
  .nav-indice li a{
     font-family: 'Comfortaa', cursive;
@@ -44,6 +39,8 @@ header{
 }
 
 .indice{
+    display: inline-block;
+    padding: 5px 20px;
     background-color: rgba(128, 128, 128, 0.342);
     color: white;
     text-decoration: none;
@@ -179,7 +176,7 @@ header{
     padding-bottom: 1vw; 
     padding-top: 1.5vw;
     margin-left: 9vw;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     width: 80vw;
     background-color: rgba(146, 102, 80, 0.39);
     border-radius: 20px;
@@ -199,7 +196,7 @@ header{
 .secundaria{
     display: grid;
     grid-template-columns: 25% 25%;
-    grid-template-rows: repeat(7,100px);
+    grid-template-rows: repeat(6,100px);
 }
 
 .item{
@@ -235,12 +232,13 @@ header{
     justify-self: center;
     grid-column-start: 1;
     grid-column-end: 3;
+    text-decoration: underline;
 }
 
 .universidad{
     display: grid;
     grid-template-columns: 25% 25%;
-    grid-template-rows: repeat(7,100px);
+    grid-template-rows: repeat(6,100px);
 }
 
 .item2{
@@ -251,6 +249,7 @@ header{
     justify-self: center;
     grid-column-start: 1;
     grid-column-end: 3;
+    text-decoration: underline;
 }
 
 
@@ -342,13 +341,13 @@ header{
   font-size: 25px;
 }
 
-#whatsapp{
+.whatsapp{
   background-color: white;
   color: #25d366;
   font-size: 40px;
 }
 
-#linkedin{
+.linkedin{
   color: #0072b1;
   font-size: 40px;
 }
@@ -455,25 +454,28 @@ footer{
 }
 
 
-#instagram{
+.instagram{
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#facebook{
+.facebook{
   color: rgba(59, 88, 152, 0.733)
 }
 
-#twitter{
+.twitter{
   color: rgba(0, 171, 238, 0.664);
 }
 
-.f_img > img{
+.ds_footer{
   background-size: cover; 
   height: 5vw;
-  min-height: 100px;
+}
+
+.celular_footer{
+  display: none;
 }
 
 .f_ubicac{

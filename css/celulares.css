@@ -1,0 +1,111 @@
+@media screen and (max-width: 650px) {
+    /* HEADER */
+    .indice{
+        margin-right: 5px;
+        padding: 5px 5px;
+    }
+    .nav-indice a{
+        font-size: 13px;
+    }
+    .logo{
+        margin: 5px 0px 0px 20px;
+        width: 100px;
+    }
+
+    /* INDEX */
+    .nosotros{
+        padding: 5vw;
+    }
+    .nosotros > img{
+        height: 120px;
+    }
+    .nosotros > h1{
+        font-size: 25px;
+    }
+    .nosotros > p{
+        font-size: 18px;
+    }
+    .item1{
+        font-size: 30px;
+    }
+    .item2{
+        font-size: 30px;
+    }
+    .item i{
+        font-size: 35px;
+    }
+
+    /* PROFESORES */
+    #profes_h1{
+        font-size: 35px;
+    }
+    #profes_p{
+        font-size: 20px;
+    }
+    .item_nav_profes a{
+        font-size: 20px;
+    }
+    .div_profesor{
+        margin: 7vw 5vw;
+    }
+    .profes_imagen{
+        width: 350px;
+    }
+    .profesor_datos h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    .profesor_datos p{
+        font-size: 20px;
+    }
+    .whatsapp{
+        font-size: 30px;
+    }
+    .linkedin{
+        font-size: 30px;
+    }
+
+    /* CONTACTO */
+    .contacto{
+        margin: 10vw 5vw;
+    }
+    .contacto_h1{
+        font-size: 35px !important;
+    }
+    .contacto_p{
+        font-size: 20px !important;
+        padding: 1px;
+    }
+    .formulario_contacto{
+        padding: 0vw 8vw 3vw 8vw
+    }
+    #direccion{
+        font-size: 18px;
+    }
+
+    /* FOOTER */
+    .f_contact > h3{
+        font-size: 15px;
+    }
+    .f_contact i{
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    .ds_footer{
+        display: none;
+    }
+    .celular_footer{
+        display: block;
+        height: 70px;
+    }
+    .f_contact{
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .f_img{
+        margin-left: 0px;
+    }
+    .f_ubicac{
+        font-size: 12px;
+    }
+}
