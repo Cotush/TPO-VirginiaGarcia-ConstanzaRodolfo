@@ -34,42 +34,29 @@
     <p class="text-center w-responsive mx-auto mb-5 contacto_p">Consultanos por disponibilidad de horarios y por materias no listadas.</p>
     <div class="row">
         <div class="col-md-12 mb-md-0 mb-5  formulario_contacto">
-            <form>
+            <form action="" id="formContacto" onsubmit="contactar(event);">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input class="form-control">
-                            <label>Nombre</label>
-                        </div>
+                        <input type="text" name="nombre" id="nombre" class="form-control">
+                        <label for="nombre">Nombre</label>
                     </div>
                     <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input class="form-control">
-                            <label>E-mail</label>
-                        </div>
+                        <input type="email" name="email" id="email" class="form-control">
+                        <label for="email">E-mail</label>
                     </div>
                 </div>
-                <div class="row">
                     <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input class="form-control">
-                            <label>Asunto</label>
-                        </div>
+                        <input type="text" name="asunto" id="asunto" class="form-control">
+                        <label for="asunto">Asunto</label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-12">
-                        <div class="md-form">
-                            <textarea rows="4" class="form-control md-textarea"></textarea>
-                            <label>Mensaje</label>
-                        </div>
+                        <textarea name="mensaje" id="mensaje" rows="4" class="form-control md-textarea"></textarea>
+                        <label for="mensaje">Mensaje</label>
                     </div>
-                </div>
+                    <div class="text-center text-md-left">
+                        <button type="submit" class="btn btn-outline-secondary">Enviar mensaje</button>
+                    </div>
             </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-outline-secondary">Enviar mensaje</a>
-            </div>
     </div>
 </section>
 
@@ -114,5 +101,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>
